@@ -1,1 +1,62 @@
 /* your code */
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Kills</th>
+          <th>Deaths</th>
+          <th>Assists</th>
+          <th>Revives</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Player 1</td>
+          <td>15</td>
+          <td>8</td>
+          <td>11</td>
+          <td>3</td>
+        </tr>
+        <tr>
+          <td>Player 2</td>
+          <td>12</td>
+          <td>10</td>
+          <td>8</td>
+          <td>4</td>
+        </tr>
+        <tr>
+          <td>Player 3</td>
+          <td>13</td>
+          <td>9</td>
+          <td>10</td>
+          <td>2</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
+/* CSS */
+
+table {
+width: 100%;
+border-collapse: collapse;
+}
+
+th {
+background-color: #333;
+color: white;
+font-weight: bold;
+padding: 10px;
+}
+
+td {
+border: 1px solid #333;
+padding: 10px;
+}
